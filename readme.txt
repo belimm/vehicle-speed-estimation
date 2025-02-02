@@ -1,7 +1,4 @@
-
 Vehicular Speed Estimation
-
------------||-----------||-----------||-----------||-----------||-----------||-----------||-----------||-----------
 
 Overview
 
@@ -52,6 +49,8 @@ jupyter notebook Vehicular_Speed_Estimation.ipynb
 
 Execute the cells sequentially to process a video input.
 
+It takes some time to produce final video output (like ~5min depends on the device you run).
+
 
 -----------||-----------||-----------||-----------||-----------||-----------||-----------||-----------||-----------
 
@@ -81,12 +80,6 @@ model = YOLO('path_to_custom_model.pt')
 
 Adjust detection thresholds and tracking parameters to improve accuracy.
 
-
 -----------||-----------||-----------||-----------||-----------||-----------||-----------||-----------||-----------
 
-Notes
-
-The accuracy of speed estimation depends on frame rate and calibration.
-
-Ensure the video is captured from a stable perspective for better results.
 
